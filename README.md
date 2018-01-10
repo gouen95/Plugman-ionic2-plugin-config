@@ -14,7 +14,7 @@ sudo npm install -g cordova ionic
 ```
 <br />
 
-**1.1. (SKIPPABLE)Create Ionic project, add ios/android platform and build platforms**
+**1.1. Create Ionic project, add ios/android platform and build platforms**
 ```
 ionic start
 cd <project name>
@@ -160,7 +160,7 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
 
-      cordova.plugins.GamificationPlugin.initGamification({
+      cordova.plugins.FirstPlugin.coolMethod({
         cars
       },success,failure);
 
