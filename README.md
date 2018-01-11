@@ -62,7 +62,7 @@ plugman platform add --platform_name ios
 ```
 <br />
 
-**4. (SKIPPABLE)Making sure that FirstPlugin.js and FirstPlugin.m/FirstPlugin.java is in-sync**
+**4. (SKIPPABLE) Making sure that FirstPlugin.js and FirstPlugin.m/FirstPlugin.java is in-sync**
 ```
 <!-- FirstPlugin.js -->
 var exec = require('cordova/exec');
@@ -115,7 +115,7 @@ exports.coolMethod2 = function (arg0, success, error) {
 ```
 <br />
 
-**5. (![#f03c15](https://placehold.it/15/f03c15/000000?text=+!) IMPORTANT!! ![#f03c15](https://placehold.it/15/f03c15/000000?text=+!))Generate node package.json(We are not using plugman to install plugin to ionic project)**
+**5. (![#f03c15](https://placehold.it/15/f03c15/000000?text=+!) IMPORTANT!! ![#f03c15](https://placehold.it/15/f03c15/000000?text=+!)) Generate node package.json(We are not using plugman to install plugin to ionic project)**
 ```
 sudo plugman createpackagejson .
 
