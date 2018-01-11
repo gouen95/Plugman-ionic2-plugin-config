@@ -181,18 +181,20 @@ cordova plugin add cordova-custom-config
 
 **2. Add lines in project's config.xml**
 ```
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_DEFAULT" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_BOTH" quote="both" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_KEY" quote="key" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_VALUE" quote="value" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_NONE" quote="none" value="YES" />
-<custom-preference name="ios-XCBuildConfiguration-BUiLD_TYPE_DEFAULT" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-BUiLD_TYPE_DEBUG" value="YES" />
-<custom-preference buildType="release" name="ios-XCBuildConfiguration-BUiLD_TYPE_RELEASE" quote="both" value="YES" />
-<custom-preference name="ios-XCBuildConfiguration-ENABLE_BITCODE" value="NO" />
-<custom-preference name="ios-XCBuildConfiguration-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" value="YES" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="9.1" />
-<custom-preference buildType="release" name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="7.0" />
-<custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_BOTH" quote="both" value="YES" xcconfigEnforce="true" />
-<custom-preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" /
+<platform name="ios">
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_DEFAULT" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_BOTH" quote="both" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_KEY" quote="key" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_VALUE" quote="value" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_NONE" quote="none" value="YES" />
+  <custom-preference name="ios-XCBuildConfiguration-BUiLD_TYPE_DEFAULT" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-BUiLD_TYPE_DEBUG" value="YES" />
+  <custom-preference buildType="release" name="ios-XCBuildConfiguration-BUiLD_TYPE_RELEASE" quote="both" value="YES" />
+  <custom-preference name="ios-XCBuildConfiguration-ENABLE_BITCODE" value="NO" />
+  <custom-preference name="ios-XCBuildConfiguration-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" value="YES" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="9.1" />
+  <custom-preference buildType="release" name="ios-XCBuildConfiguration-IPHONEOS_DEPLOYMENT_TARGET" value="7.0" />
+  <custom-preference buildType="debug" name="ios-XCBuildConfiguration-QUOTE_BOTH" quote="both" value="YES" xcconfigEnforce="true" />
+  <custom-preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1" /
+</platform>
 ```
