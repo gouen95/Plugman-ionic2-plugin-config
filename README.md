@@ -234,9 +234,14 @@ cordova plugin add cordova-custom-config
 ```
 npm install <path/of/downloaded node-xcode/>
 ```
-<br/>
+<br />
 
 **3.1 (OPTIONAL) Install in the user's root as well?**
+```
+cd ~
+npm install <path/of/downloaded node-xcode/>
+```
+<br />
 
 **4. Copy below code to add_embedded.js***
 ```
