@@ -203,7 +203,7 @@ cordova plugin add cordova-custom-config
 <br />
 
 ## Extra 2 : [Add framework to linked and embedded](https://stackoverflow.com/questions/36650522/custom-cordova-plugin-add-framework-to-embedded-binaries/36723619)
-**1. Change framework src embed=true to weak=true**
+**1. Change framework src= and custom= ONLY**
 ```
  <platform name="ios">
     <config-file parent="/*" target="config.xml">
@@ -213,8 +213,8 @@ cordova plugin add cordova-custom-config
     </config-file>
     <source-file src="src/ios/GamificationPlugin.m" />
 
-    <framework src="src/ios/Frameworks/HandyJSON.framework" custom="true" embed="true" />
-    <framework src="src/ios/Frameworks/GamificationFramework.framework" custom="true" embed="true" />
+    <framework src="src/ios/Frameworks/HandyJSON.framework" custom="true" />
+    <framework src="src/ios/Frameworks/GamificationFramework.framework" custom="true" />
     <framework src="QuartzCore.framework"  weak="true" />
     <framework src="CoreGraphics.framework" weak="true" />
     <framework src="UIKit.framework" weak="true" />
