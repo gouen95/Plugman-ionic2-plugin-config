@@ -1,5 +1,5 @@
 # Plugman-ionic2-plugin-config
-#### Configuration for custom node plugin for Ionic 2 with Plugman. We will only be using Plugman to generate the template for the custom plugin. <br /> Includes 2 extra step to make installing custom plugins seamless.
+#### Configuration for custom node plugin for Ionic with Plugman. We will only be using Plugman to generate the template for the custom plugin. <br /> Includes 2 extra step to make installing custom plugins seamless.
 <br />
 
 **0. Requirements:**
